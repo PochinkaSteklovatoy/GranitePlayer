@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GranitePlayer</string>
+    <string name="all_music">Вся музыка</string>
+    <string name="playlists">Плейлисты</string>
+    <string name="no_tracks">Треков пока нет\n Добавьте их!</string>
+    <string name="no_playlists">Плейлистов пока нет.\n Соберите свой!</string>
+    <string name="add_track">Добавить трек</string>
+
+</resources>
