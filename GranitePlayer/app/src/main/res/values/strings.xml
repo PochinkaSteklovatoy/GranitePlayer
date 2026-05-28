@@ -5,5 +5,18 @@
     <string name="no_tracks">Треков пока нет\n Добавьте их!</string>
     <string name="no_playlists">Плейлистов пока нет.\n Соберите свой!</string>
     <string name="add_track">Добавить трек</string>
+    <string name="prev_track_button">Предыдущий трек</string>
+    <string name="next_track_button">Следующий трек</string>
+    <string name="pause_unpause_button">Играть/Поставить на паузу</string>
+    <string name="song_name">Название песни</string>
+    <string name="author_name">Автор</string>
+    <string name="track_in_list_view">Трек в списке</string>
+    <string name="track_delete_button">Удалить трек</string>
+    <string name="track_redact_button">Редактировать данные трека</string>
+    <string name="cross_exit_button">Выйти из меню</string>
+    <string name="empty_track_name">Название трека</string>
+    <string name="empty_track_author">Автор</string>
+    <string name="empty_track_album">Альбом</string>
+    <string name="empty_track_length">Длительность</string>
 
 </resources>
