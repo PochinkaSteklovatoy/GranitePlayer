@@ -18,5 +18,7 @@
     <string name="empty_track_author">Автор</string>
     <string name="empty_track_album">Альбом</string>
     <string name="empty_track_length">Длительность</string>
+    <string name="open_played_track">Открыть проигрываемый трек</string>
+    <string name="track_options">Подробности трека</string>
 
 </resources>

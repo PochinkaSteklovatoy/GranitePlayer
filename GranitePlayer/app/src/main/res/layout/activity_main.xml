@@ -64,6 +64,16 @@
         app:layout_constraintTop_toBottomOf="@id/Add_Track_Main"
         app:layout_constraintVertical_bias="0.0" />
 
+    <ImageButton
+        android:id="@+id/Open_Played_Track"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/open_played_track"
+        android:onClick="GotoPlayedTrack"
+        app:layout_constraintBottom_toBottomOf="@+id/Tracklist"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/arrow_up_float" />
+
     <FrameLayout
         android:id="@+id/Played_Track_UI"
         android:layout_width="0dp"

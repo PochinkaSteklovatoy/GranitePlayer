@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/Background">
+
+    <ImageView
+        android:id="@+id/inlist_track_cover"
+        tools:src="@tools:sample/avatars"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/inlist_track_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/inlist_track_cover"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/TextHeader"
+        android:text="@string/empty_track_name" />
+
+    <TextView
+        android:id="@+id/inlist_track_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/inlist_track_cover"
+        android:layout_below="@id/inlist_track_name"
+        android:textColor="@color/TextBottom"
+        android:text="@string/empty_track_author" />
+
+    <TextView
+        android:id="@+id/inlist_track_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/TextBottom"
+        android:layout_toStartOf="@id/inlist_track_options"
+        android:layout_marginTop="25dp"
+        android:text="@string/empty_track_length" />
+
+    <ImageButton
+        android:id="@+id/inlist_track_options"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/Background"
+        android:contentDescription="@string/track_options"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+</RelativeLayout>
